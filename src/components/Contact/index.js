@@ -134,11 +134,23 @@ const DIV = styled.div`
 `
 const RIGHTDIV = styled.div`
   width: 55%;
+
+  @media (max-width: 768px) {
+   width:110%;
+   margin:auto;
+
+  }
 `
 
 const LEFTDIV = styled.div`
 margin-top: 7%;
 width: 38%;
+
+@media (max-width: 768px) {
+   width:110%;
+   margin:auto;
+
+  }
 `
 
 const SocialMediaIcon = styled.a`
