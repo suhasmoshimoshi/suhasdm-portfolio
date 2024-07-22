@@ -7,7 +7,7 @@ import { Bio } from '../../data/constants';
 import Shubham from "../../data/SUHASDM.pdf"
 
 const HeroSection = () => {
-    const GoogleDriveLink = 'https://drive.google.com/file/d/1_YDtLkPVLkjXPalwZKKY0mK9nxpe4lTw/view?usp=sharing';
+    const GoogleDriveLink = 'https://drive.google.com/file/d/1FmGhtQOvT2DQZ6eHuq-sAq6H-63GxDvT/view?usp=sharing';
 
     const handleResumeButtonClick = () => {
         window.open(GoogleDriveLink, '_blank');
